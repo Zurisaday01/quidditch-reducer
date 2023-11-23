@@ -23,7 +23,6 @@ html {
 }
 
 body {
-	min-height: 100vh;
 	color: var(--color-light);
 	background-color: var(--color-darkest);
 	padding: 3.2rem;
@@ -37,11 +36,11 @@ body {
 }
 
 .main {
-	width: 50rem;
+	max-width: 50rem;
 }
 
 .app-header {
-	width: 66rem;
+	max-width: 50rem;
 	margin-bottom: 4rem;
 	display: flex;
 	align-items: center;
